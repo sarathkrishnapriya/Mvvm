@@ -11,7 +11,7 @@ import Network
 class ViewController: UIViewController {
     
     var networkManager : NetworkManager = NetworkManager()
-    
+    var status = ""
     lazy var Internet  = Reachability()
 
     override func viewDidLoad() {
